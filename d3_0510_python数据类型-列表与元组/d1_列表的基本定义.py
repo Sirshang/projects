@@ -1,4 +1,5 @@
 # 列表的定义
+# 提交注释
 name = ['Jennifer','六娃','微笑','学习到两点']
 print(name,type(name),len(name))
 
