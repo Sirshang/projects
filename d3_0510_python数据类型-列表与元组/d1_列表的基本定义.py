@@ -7,4 +7,5 @@ print(info,type(info),len(info))
 
 # 空列表
 lst = []
+print("1")
 print(type(lst),len(lst))
