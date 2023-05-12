@@ -13,17 +13,17 @@ num = [10,2,31,14,5,26,57]
 # res = sum(num)
 # print(res)
 
-num.sort()
-print(num)
-
+# num.sort()
+# print(num)
+#
 # num.reverse()
 # print(num)
 
-# num.sort(reverse = True)
-# print(num)
+num.sort(reverse=True)
+print(num)
 
 print(num.index(14))
-# print(num.index('abc'))  # 元素不存在，则会报错
+# print(num.index('abc'))  # 元素不存在，则会报错.
 
 
 
