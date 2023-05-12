@@ -7,8 +7,8 @@
 name = ['YJ','leaf','Jennifer','六娃','微笑','学习到两点','YJ','leaf']
 # print(name)
 
-# name.remove('YJ')
-# print(name)
+name.remove('YJ')
+print(name)
 
 # name.remove('abcd') # 元素值不存在的时候，会报错ValueError: list.remove(x): x not in list
 # print(name)
