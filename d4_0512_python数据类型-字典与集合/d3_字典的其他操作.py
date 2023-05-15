@@ -8,5 +8,5 @@ print(info.values(),type(info.values()))
 print(info.items(),type(info.items()))
 
 
-# for key in info.items():
-#     print(key)
+for key in info.items():
+    print(key)
