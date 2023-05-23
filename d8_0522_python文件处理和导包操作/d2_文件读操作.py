@@ -6,7 +6,7 @@
     - 3、关闭文件：file.close()
 '''
 # 位置传值
-file = 'D:\Pycharm_workspace\py61\d8_0522_python文件处理和导包操作\demo.txt'
+file = 'D:\office\Python\projects\d8_0522_python文件处理和导包操作\demo.txt'
 # myfile = open(file)
 # 指定传值
 # 1-打开文件
