@@ -6,7 +6,7 @@
     - 3、关闭文件：file.close()
 '''
 # 位置传值
-file = r'D:\Pycharm_workspace\py61\d8_0522_python文件处理和导包操作\test.log'
+file = r'D:\office\Python\projects\d8_0522_python文件处理和导包操作\test.log'
 # 1-打开文件
 # myfile2 = open(file = file,mode='a',encoding='utf-8')
 myfile2 = open(file = file,mode='w',encoding='utf-8')
