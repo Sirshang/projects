@@ -1,4 +1,4 @@
-# 1、enumerate()
+# 1、enumerate()n
 
 # 获取元素以及元素的索引值
 lst = ['python','test','mysql']
