@@ -51,21 +51,34 @@ lst= [{'url':'','mobile':'','pwd':''},{'url':'','mobile':'','pwd':''}]
 # 第二步：数据处理---for...
 # 第三步：数据拆解----切割
 
-with open("case.txt") as fs:
+
+with open('case.txt','r',encoding='utf-8') as fs:
     data = fs.readlines()
-    new_lst = []
+    list_res = []
     for i in data:
         data_all = i.strip()
-        data_all = data_all.split("@")
-        # print(data_all)
-        dict_all = {}
-        for al in data_all:
-            res = al.split(":")
+        data_all = data_all.split('@')
+        dict_res = {}
+        for j in data_all:
+            res = j.split(":")
             # print(res)
-            dict_all[res[0]] = res[1]
-        # print(dict_all)
-        new_lst.append(dict_all)
-    print(new_lst)
+            dict_res[res[0]] = res[1]
+        print(dict_res)
+        list_res.append(dict_res)
+    print(list_res)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # with open(file='case.txt') as fs:
 #     all_data = fs.readlines()

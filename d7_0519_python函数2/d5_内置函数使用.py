@@ -1,14 +1,14 @@
-# 1、enumerate()n
+# 1、enumerate()
 
 # 获取元素以及元素的索引值
-lst = ['python','test','mysql']
+# lst = ['python','test','mysql']
 # for i in lst:
-#     print(i)
+#     # print(i)
 #     print(lst.index(i))
-
+#
 # for index,value in enumerate(lst):
 #     print(index)
-#     print(value)
+#     # print(value)
 
 # for i in enumerate(lst):
 #     print(i)
@@ -29,9 +29,9 @@ lst_str = '[1,2,3]'
 # new_lst_str = eval(lst_str)
 # print(new_lst_str,type(new_lst_str))
 #
-# dict_str = "{'name':'lemon'}"
-# new_dict_str = eval(dict_str)
-# print(new_dict_str,type(new_dict_str))
+dict_str = "{'name':'lemon'}"
+new_dict_str = eval(dict_str)
+print(new_dict_str,type(new_dict_str))
 
 
 # import requests
@@ -67,14 +67,14 @@ a = [['用例id','标题','用户名','密码','期望结果'],
 #     print(new_case)
 #     new_data.append(new_case)
 # print(new_data)
-new_data=[]
-title = a[0]
-print(title)
-for case in a[1:]:
-    # print(case)
-    data = dict(zip(title,case))
-    print(data)
-    new_data.append(data)
-print(new_data)
+# new_data=[]
+# title = a[0]
+# print(title)
+# for case in a[1:]:
+#     # print(case)
+#     data = dict(zip(title,case))
+#     print(data)
+#     new_data.append(data)
+# print(new_data)
 
 
