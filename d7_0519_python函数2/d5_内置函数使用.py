@@ -29,9 +29,9 @@ lst_str = '[1,2,3]'
 # new_lst_str = eval(lst_str)
 # print(new_lst_str,type(new_lst_str))
 #
-dict_str = "{'name':'lemon'}"
-new_dict_str = eval(dict_str)
-print(new_dict_str,type(new_dict_str))
+# dict_str = "{'name':'lemon'}"
+# new_dict_str = eval(dict_str)
+# print(new_dict_str,type(new_dict_str))
 
 
 # import requests
