@@ -1,8 +1,8 @@
 # 类的定义
-# class Car:
-#     # 类属性
-#     have_wheel = True
-#     have_shell = True
+class Car:
+    # 类属性
+    have_wheel = True
+    have_shell = True
 
 '''查看类属性值'''
 # # 方式一：对象名.类属性名
@@ -15,18 +15,18 @@
 
 '''修改类属性值'''
 # - 方式一：对象名.类属性名 = 新值  ---只是修改自己对象的值
-# c1 = Car()
+c1 = Car()
 # c1.have_wheel = '有轮子'  # 只是修改自己对象的值
 # print(c1.have_wheel)
 #
-# c2 = Car()
+c2 = Car()
 # print(c2.have_wheel) # True
 # #   - 方式二：类名.类属性名 = 新值   ---修改了图纸
 # Car.have_shell = '有外壳'
 # print(Car.have_shell)
 # print(c1.have_shell)
-# print(c2.have_shell)
-
+print(c2.have_shell)
+print(getattr(c2,'have_shell'))
 '''增加类属性'''
 # 方式一：类名.不能存在类属性名 = 新值
 # Car.have_system = '有核心系统'
@@ -43,14 +43,20 @@
     - 增加类属性值：setattr(类名,'新增类属性','新增的属性值')
   - delattr(类名,'类属性'):删除类中的类属性
 '''
-class Car:
-    # 类属性
-    have_wheel = True
-    have_shell = True
+# class Car:
+#     # 类属性
+#     have_wheel = True
+#     have_shell = False
+# #
+# a = Car()
+# print(hasattr(a,'have_wheel'))
+# print(getattr(Car,'have_shelll','123'))
+# print(setattr(Car,'have_wheel','have_wheel'))
 
-# getattr(类名,'类属性',默认值):---频率最高的
-print(getattr(Car,'have_wheel'))
-print(getattr(Car,'have_system','没有have_system类属性值'))  # 好处：不会中断代码，会将默认值输出
+
+# # getattr(类名,'类属性',默认值):---频率最高的
+# print(getattr(Car,'have_wheel'))
+# print(getattr(Car,'have_system','没有have_system类属性值'))  # 好处：不会中断代码，会将默认值输出
 
 # # 需求1：判断Car类是否有have_system属性，如果有则获取这个属性值，如果没有，新增这个属性以及对应的值
 # if hasattr(Car,'have_system'):
