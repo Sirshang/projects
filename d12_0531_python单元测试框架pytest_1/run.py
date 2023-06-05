@@ -9,3 +9,4 @@ pytest.main(args=args)
 # '--html=report.html'：生成一个HTML格式的测试报告
 # '--alluredir=allure'：执行allure数据文件的存放位置
 # '--clean-alluredir':清空allure目录下的数据文件
+
